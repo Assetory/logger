@@ -1,6 +1,6 @@
 {
   "name": "@assetory/logger",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A redis logger, written in typescript",
   "type": "module",
   "main": "src/index.ts",
