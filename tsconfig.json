@@ -1,21 +1,15 @@
 {
-    "compilerOptions":
-    {
-        "target": "es5",
-        "module": "commonjs",              
-        "declaration": true,                
-        "allowJs": true,
-        "outDir": "build",                          
-        "rootDir": "src",
-        "strict": true,         
-        "noImplicitAny": true,
-        "esModuleInterop": true,
-        "moduleResolution": "node",
-        "resolveJsonModule": true
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "lib": ["es2017", "es7", "es6", "dom"],
+      "declaration": true,
+      "outDir": "build",
+      "strict": true,
+      "esModuleInterop": true
     },
     "exclude": [
-        "./_legacy",
-        "./node_modules",
-        "./tests"
+      "node_modules",
+      "build"
     ]
-}
+  }
