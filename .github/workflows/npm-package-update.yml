@@ -1,0 +1,13 @@
+name: CI
+on:
+  push:
+    branches: [ devlelop ]
+  pull_request:
+    branches: [ devlelop ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Npm package update
+      - uses: SotaSuzuki/npm-package-update-action@v1.0.1
+
