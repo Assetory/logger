@@ -1,17 +1,25 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
-      "lib": ["es2017", "es7", "es6", "dom"],
-      "declaration": true,
-      "outDir": "build",
-      "rootDir": "src",
-      "strict": true,
-      "esModuleInterop": true
+    "compilerOptions":
+    {
+        "target": "es5",
+        "module": "commonjs",
+        "lib":
+        [
+            "es2017",
+            "es7",
+            "es6",
+            "dom"
+        ],
+        "declaration": true,
+        "outDir": "build",
+        "rootDir": "src",
+        "strict": true,
+        "esModuleInterop": true
     },
-    "exclude": [
-      "node_modules",
-      "_legacy",
-      "tests"
+    "exclude":
+    [
+        "node_modules",
+        "_legacy",
+        "tests"
     ]
-  }
+}
