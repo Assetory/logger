@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Npm package update
-      - uses: SotaSuzuki/npm-package-update-action@v1.0.1
+        uses: SotaSuzuki/npm-package-update-action@v1.0.1
 
