@@ -1,4 +1,4 @@
-name: CI
+name: check for npm updates
 on:
   push:
     branches: [ devlelop ]
